@@ -1,0 +1,63 @@
+.wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+      background-color: rgb(51, 50, 50);
+}
+
+.wrapper input {
+      height: 30px;
+      width: 250px;
+      padding: 0 10px;
+      outline: none;
+      border: none;
+      border-bottom: 1px solid rgb(228, 227, 227);
+      background: none;
+      color: white;
+}
+
+.wrapper button {
+      width: 100px;
+      height: 30px;
+      margin-left: 10px;
+      font-size: 12px;
+      background: none;
+      border: 1px solid rgb(228, 227, 227);
+      color: white;
+}
+
+.wrapper button:hover {
+      background: rgb(228, 227, 227);
+      color: #222;
+      cursor: pointer;
+}
+
+.todoItem {
+      position: absolute;
+      cursor: move;
+      width: auto;
+      height: auto;
+      color: black;
+      padding: 1em;
+      border-radius: 5px;
+}
+
+.delete {
+      background: none !important;
+      width: 10px !important;
+      height: 10px !important;
+      position: absolute;
+      right: 8px;
+      top: 3px;
+      font-weight: bold;
+      background: none;
+      border: none !important;
+      outline: none;
+}
+
+.delete:hover {
+      color: red !important;
+      cursor: pointer;
+}
